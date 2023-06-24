@@ -7,8 +7,9 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
-    position: relative; /* Yeni eklendi */
-    min-height: 100vh; /* Yeni eklendi */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -46,6 +47,7 @@ section#hero {
     background-color: #fff;
     padding: 40px;
     text-align: center;
+    flex-grow: 1;
 }
 
 .container {
@@ -64,7 +66,4 @@ footer {
     text-align: center;
     font-size: 14px;
     color: #888;
-    position: absolute; /* Güncellendi */
-    bottom: 0; /* Güncellendi */
-    width: 100%; /* Güncellendi */
 }

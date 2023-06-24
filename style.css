@@ -7,6 +7,8 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
+    position: relative; /* Yeni eklendi */
+    min-height: 100vh; /* Yeni eklendi */
 }
 
 header {
@@ -62,4 +64,7 @@ footer {
     text-align: center;
     font-size: 14px;
     color: #888;
+    position: absolute; /* Güncellendi */
+    bottom: 0; /* Güncellendi */
+    width: 100%; /* Güncellendi */
 }

@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Oyunu</title>
-    <style>
-        #game-board {
-            width: 400px;
-            height: 400px;
-            border: 1px solid #000;
-            margin: 20px auto;
-            position: relative;
-        }
-
-        #player {
-            width: 50px;
-            height: 50px;
-            background-color: #f00;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-    </style>
+    <title>Minimalist Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="game-board">
-        <div id="player"></div>
-    </div>
+    <header>
+        <h1>Minimalist Website</h1>
+    </header>
 
-    <script src="game.js"></script>
+    <nav>
+        <ul>
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Hakkımda</a></li>
+            <li><a href="#">Hizmetler</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Hoş Geldiniz!</h2>
+            <p>Minimalist Websitesine Hoş Geldiniz.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Minimalist Website. Tüm hakları saklıdır.</p>
+    </footer>
 </body>
 </html>

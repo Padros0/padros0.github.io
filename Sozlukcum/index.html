@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelime Tahmini Oyunu</title>
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css"> <!-- Mobil arayüz -->
+  <link rel="stylesheet" media="screen and (min-width: 601px)" href="desktop.css"> <!-- Bilgisayar arayüzü -->
+</head>
+<body>
+    <div class="container">
+        <h1>Kelime Tahmini Oyunu</h1>
+        <p>Bir kelime tahmin edin:</p>
+        <input type="text" id="guessInput">
+        <button onclick="checkGuess()">Tahmin Et</button>
+        <p id="message"></p>
+        <p id="score"></p> <!-- Puanı görüntülemek için yeni bir paragraf ekledik -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

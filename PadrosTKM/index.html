@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PadrosTKM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PadrosTKM</h1>
+        <div id="result"></div>
+        <div class="choices">
+            <button class="choice" id="rock">🪨</button>
+            <button class="choice" id="paper">📄</button>
+            <button class="choice" id="scissors">✂️</button>
+        </div>
+        <p id="score">Skor: <span id="scoreText">0</span></p>
+        <p id="time">Kalan Süre: <span id="timeText">60</span> saniye</p>
+        <div>
+            <label for="difficulty">Zorluk Seviyesi:</label>
+            <select id="difficulty">
+                <option value="easy">Amerika</option>
+                <option value="medium">Avrupa</option>
+                <option value="hard">Türkiye</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
